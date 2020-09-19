@@ -3,6 +3,7 @@ html,body{
     box-sizing: border-box;
     padding: 0px;
     background-color: #C7C7C7;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header{
@@ -282,14 +283,9 @@ html,body{
 .profile-pic{
     margin-right: 2px;
 }
-.pic{
-    width: 40px;
-    height: 40px;
-    background-color: #CCCCCC;
-}
 .profile-desc{
-    font-size: 12px;
-    width: 255px;
+    font-size: 11px;
+    width: 260px;
     height: 54px;
 }
 .profile-desc-heading{
@@ -356,4 +352,23 @@ html,body{
     margin-left: 61%;
     margin-top: 27px;
     margin-bottom: 5px;;
+}
+
+/* //============= article */
+.article-container{
+    display: flex;
+    font-size: 11px;
+}
+.article-detail{
+    /* display: flex; */
+}
+.description{
+    display: flex;
+    
+}
+.article-detail>.desc{
+    /* width: 261px; */
+    height: 40px;
+}
+.article-detail>.read-more{
 }
