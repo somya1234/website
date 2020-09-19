@@ -358,9 +358,23 @@ html,body{
 .article-container{
     display: flex;
     font-size: 11px;
+    height: 50px;
+    width: 345px;
+    margin: 19px 10px;
 }
-.article-detail{
-    /* display: flex; */
+.article-icon{
+    margin-right: 5px;
+}
+.title-desc{
+    display: flex;
+    margin: 5px 2px;
+}
+.title-desc>.title{
+    color: black;
+    font-weight: bold;
+}
+.date{
+    color: #C6C6C6;
 }
 .description{
     display: flex;
@@ -368,7 +382,8 @@ html,body{
 }
 .article-detail>.desc{
     /* width: 261px; */
-    height: 40px;
+    /* height: px; */
 }
-.article-detail>.read-more{
+.description>.read-more{
+    color: #478BAA;
 }
