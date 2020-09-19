@@ -190,7 +190,6 @@ html,body{
     position: absolute;
   }
 
-
 .section1{
     display: flex;
 }
@@ -328,6 +327,8 @@ html,body{
 
 /**********************************************************************************/
 .area2{
+    margin-top: 0%;
+    display: flex;
 }
 .vertical-ad{
     width: 160px;
@@ -335,7 +336,21 @@ html,body{
     background-color: #CCCCCC;
     color: white;
     text-align: center;
+    margin-left: 30px;
 }
 .vertical-ad>p{
-    margin-top: 290px;
+    padding-top: 294px;
+}
+
+.content{
+    display: flex;
+    margin-left: 30px;
+}
+/* //==== articles */
+.articles{
+    width: 720px;
+    height: 318px;
+    /* background-color: #D2D2D2; */
+    border: 1px solid;
+    
 }
