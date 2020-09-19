@@ -3,7 +3,7 @@ html,body{
     box-sizing: border-box;
     padding: 0px;
     background-color: #C7C7C7;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 .header{
@@ -353,13 +353,16 @@ html,body{
     margin-top: 27px;
     margin-bottom: 5px;;
 }
+.articles>.main{
+    display: flex;
+}
 
 /* //============= article */
 .article-container{
     display: flex;
     font-size: 11px;
     height: 50px;
-    width: 345px;
+    width: 365px;
     margin: 19px 10px;
 }
 .article-icon{
@@ -367,7 +370,7 @@ html,body{
 }
 .title-desc{
     display: flex;
-    margin: 5px 2px;
+    margin: 5px 0px;
 }
 .title-desc>.title{
     color: black;
@@ -380,10 +383,6 @@ html,body{
     display: flex;
     
 }
-.article-detail>.desc{
-    /* width: 261px; */
-    /* height: px; */
-}
 .description>.read-more{
     color: #478BAA;
-}
+} 
